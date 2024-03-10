@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #menu {
+            display: block;
+            align-items: center;
+            justify-content: space-around;
+            padding: 12px;
+        }
+
+        #menu img {
+            height: 350px;
+            width: 350px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Image Links</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website. Explore the world of technology, nature, and delicious food!</p>
+    <a href="https://www.engadget.com/"><img src="teknojy.jpeg" alt="Technology"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://www.photoscoper.co.uk/"><img src="necha2.jpeg" alt="Nature 1"></a>
+        <a href="https://bronxzoo.com/"><img src="necha_1.jpeg" alt="Nature 2"></a>
+        <a href="https://www.nature.org/en-us/"><img src="necha_forest.jpeg" alt="Nature 3"></a>
+        <a href="https://www.galatawindenerji.com/en"><img src="necha_kul.jpeg" alt="Nature 3"></a>
+
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><img src="pizza.jpeg" alt="Food 1"></a> pizza</li>
+        <li><img src="pork.jpeg" alt="Food 2"></a> pork</li>
+        <li><img src="Steak Marsala.jpeg" alt="Food 3"></a> Steak</li>
+    </ul>
+</section>
+
+</main>
+
+</body>
+</html>
